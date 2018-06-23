@@ -1,0 +1,56 @@
+.after-button {
+	border-radius: 8px;
+	background-color: white;
+	border: none;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.after-button-orange {
+	color: orange; 
+	border: 2px solid orange;
+}
+
+.after-button-font-18px {
+	font-size: 18px;
+}
+
+.after-button-orangered {
+	color: orangered; 
+	border: 2px solid orangered;
+}
+
+.after-button-lightsalmon {
+	color: lightsalmon;
+	border: 2px solid lightsalmon;
+}
+
+.after-button-font-14px {
+	padding: 16px 16px;
+	font-size: 14px;
+}
+
+.after-button:hover {
+	text-decoration: none;
+	color: white;
+	overflow: hidden;
+}
+
+.after-button-orange:hover {
+	background-color: orange;
+}
+
+.after-button-orangered:hover {
+	background-color: orangered;
+}
+
+.after-button-lightsalmon:hover {
+	background-color: lightsalmon;
+}
