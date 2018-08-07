@@ -34,7 +34,8 @@
 	STYLESHEETS
 	=========================== -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="css/font-awesome-animation.min.css">
 	<link rel="stylesheet" href="css/preloader.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -119,10 +120,11 @@
 					<ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
 						<li><a href="#about"><span class="btnicon fa fa-info"></span>About</a></li>
 						<li><a href="#preview"><span class="btnicon fa fa-eye"></span>Preview</a></li>
-						<li><a href="#support"><span class="btnicon fa fa-envelope-o"></span>Support</a></li>
+						<li><a href="#support"><span class="btnicon far fa-envelope"></span>Support</a></li>
 						<li><a href="mailto:web@vast-light.iask.in"><span class="btnicon fa fa-phone"></span>Contact</a></li>
-            <li class="active"><a href="https://login2.nide8.com:233/28f8f58a8a7f11e88feb525400b59b6a/register"><span class="btnicon fa fa-user"></span>User Register</a></li>
-						<li class="active"><a href="#downloads"><span class="btnicon fa fa-cloud-download"></span>Download</a></li>
+						<li class="active"><a href="https://login2.nide8.com:233/28f8f58a8a7f11e88feb525400b59b6a/register"><span class="btnicon fa fa-user"></span>User Register</a></li>
+						<li class="active"><a onclick="alert('Developing...');"><span class="btnicon fas fa-dollar-sign"></span>User Charge</a></li>
+						<li class="active"><a href="#downloads"><span class="btnicon fas fa-cloud-download-alt"></span>Download</a></li>
 					</ul>
 
 				</div><!--.nav-collapse -->
@@ -161,13 +163,13 @@
 
 			 <h4 class="wow fadeInUp" data-wow-duration="3s">Features: </h4>
 
-			 <p class="wow fadeInDown" data-wow-duration="3s">Redesigned modern Minecraft client (unofficial).</p>
-			 <p class="wow fadeInDown" data-wow-duration="3s">Fantastic game experience for PCs.</p>
-			 <p class="wow fadeInDown" data-wow-duration="3s">You can join in serveral different game modes.</p>
+			 <p class="wow fadeInDown" data-wow-duration="3s">Different essential plugins.</p>
+			 <p class="wow fadeInDown" data-wow-duration="3s">Special plot environments and flying conditions.</p>
+			 <p class="wow fadeInDown" data-wow-duration="3s">Unique resourse world and recreation lobby.</p>
 			 <div id="downloads">
              <br /><br />
-			 <button class="wow fadeInDown after-button after-button-orange after-button-font-18px fa fa-cloud-download" onclick="window.open('down/vast-light_installer.exe')" data-wow-duration="4s"> Client Installer</a></button>
-			 <button class="wow fadeInDown after-button after-button-lightsalmon after-button-font-14px fa fa-cloud-download" onclick="window.open('https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe')" data-wow-duration="4s"><font face="Antic"> Runtime Installer (.NET 4)</font></a></button>
+			 <button class="wow fadeInDown after-button after-button-orange after-button-font-18px fas fa-cloud-download-alt" onclick="window.open('down/vast-light_installer.exe')" data-wow-duration="4s"> Client Installer</a></button>
+			 <button class="wow fadeInDown after-button after-button-lightsalmon after-button-font-14px fas fa-cloud-download-alt" onclick="window.open('https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe')" data-wow-duration="4s"><font face="Antic"> Runtime Installer (.NET 4)</font></a></button>
 			 <br /><br />
 			 </div>
 			 </div> <!-- ABOUT INFO END -->
@@ -182,15 +184,17 @@
 			 <img src="img/user.png" alt="Using">
 		 </div><!-- RIGHT PART OF THE ABOUT SECTION END -->
 	 </div><!-- ABOUT SECTION END -->
+	 <!--
 	 <center>
 			 <div style="width: auto; max-width: 600px;">
 			 <p>Open Source</p>
 			 <script type="text/javascript" src="js/GithubRepoWidget.js"></script>
 			 <div class="github-widget" data-repo="CrystalStu/Minecraft-Tools-Package"></div>
 			 </div>
-			 </div><!-- #container -->
+			 </div>
 			 <script type="text/javascript">GithubRepoWidget.init();</script>
 	 </center>
+	-->
 
 	<hr><!-- SECTION SEPARETOR LINE -->
 
@@ -226,24 +230,26 @@
 				   <h4>Item</h4>
 				   <p>Discription.</p>
 				</div> <!-- ITEM END -->
+			<!--
 			<h4>Minecraft QUARTZ</h4>
 			   <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
 				   <img src="img/s4.png" alt="">
 				   <h4>Item</h4>
 				   <p>Discription.</p>
-				</div> <!-- ITEM END -->
+				</div>
 
 				<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
 				   <img src="img/s5.png" alt="">
 				   <h4>Item</h4>
 				   <p>Discription.</p>
-				</div> <!-- ITEM END -->
+				</div>
 
 				<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
 				   <img src="img/s6.png" alt="">
 				   <h4>Item</h4>
 				   <p>Discription.</p>
-				</div> <!-- ITEM END -->
+				</div>
+			-->
 		</div><!-- SERVICE ITEMS END-->
 	</div><!-- PREVIEW SECTION END -->
 
@@ -252,9 +258,10 @@
 	=========================== -->
 	<div id="support">
 		<div class="sectionhead wow bounceInUp" data-wow-duration="2s">
-		  <span class="bigicon fa fa-pencil"></span>
+		  <span class="bigicon fas fa-pencil-alt"></span>
 		   <h3>Support</h3>
 		   <hr class="separetor">
+		   <h2>Maintaining...</h2>
 		</div><!-- SUPPORT SECTION HEAD END -->
 
 		<!-- SUPPORT ITEMS START -->
@@ -263,6 +270,7 @@
 		</div><!-- SUPPORT ITEMS END -->
 
 
+	<!--
 	<form id="sgf" name="sgf" method="post" action="support/submit.asp">
 		<input type="hidden" name="TYPE" value="support" />
 		<br />
@@ -272,6 +280,7 @@
 		<br /><br />
 		<button class="wow fadeInDown after-button after-button-orangered after-button-font-14px fa fa-arrow-circle-right" onclick="sgf.submit()" data-wow-duration="2s"> Submit</a></button>
 	</form>
+	-->
 
 	</div><!-- SUPPORT SECTION END -->
 
