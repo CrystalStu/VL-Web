@@ -55,3 +55,21 @@
 .after-button-lightsalmon:hover {
 	background-color: lightsalmon;
 }
+
+.after-dim-link {
+	color: #7e7e7e;
+}
+
+.after-dim-link:hover {
+	color: #c3c3c3;
+}
+
+.after-dim-link:visited {
+	color: #7e7e7e;
+	text-decoration-line: none;
+}
+
+.after-dim-link:active {
+	color: #c3c3c3;
+	text-decoration-line: none;
+}
