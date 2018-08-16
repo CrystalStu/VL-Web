@@ -73,3 +73,21 @@
 	color: #c3c3c3;
 	text-decoration-line: none;
 }
+
+.after-light-link {
+	color: #eeeeee;
+}
+
+.after-light-link:hover {
+	color: #c3c3c3;
+}
+
+.after-light-link:visited {
+	color: #eeeeee;
+	text-decoration-line: none;
+}
+
+.after-light-link:active {
+	color: #eeeeee;
+	text-decoration-line: none;
+}
