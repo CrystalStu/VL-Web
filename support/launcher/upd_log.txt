@@ -1,2 +1,2 @@
-Ver 2.0.1.1
-Bug Fixed.
+Ver 2.0.1.4
+Add options reservation.
